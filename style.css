@@ -66,67 +66,100 @@ box-shadow: -1px -14px 48px 8px rgba(137,128,128,0.65);
    .chains .arrow {
     display: none;
    }
+   .burger{
+    margin-top: 0px;
+   }
    .chains{
     position: absolute;
-    top: 900px;
-   }
-   .chinese .card {
-    margin-top: 1100px;
-   }
-   .restro{
-    margin-top: 1400px;
+    top: 870px; 
+    }
+    .chinese{
+    margin-top: 600px;
+    }
+    .restro{
+    margin-top: 1390px;
    }
    .four{
-    margin-top: 1700px;
+    margin-top: 1600px;
    }
    .four2{
-    margin-top: 2000px;
+    margin-top: 2400px;
    }
    .four3{
-    margin-top: 2300px;
+    margin-top: 3200px;
    }
    .places{
-    margin-top: 3300px;
+    margin-top: 4010px;
+    border-bottom: 1px solid gainsboro;
+    padding-bottom: 20px;
    }
    .button2{
-    margin-top: 3600px;
+    margin-top: 4280px;
+    border-bottom: 1px solid gainsboro;
+    padding-bottom: 20px;
    }
    .button3{
-    margin-top: 3900px;
+    margin-top: 4533px;
+    border-bottom: 1px solid gainsboro;
+    padding-bottom: 20px;
    }
    .cuisines{
-    margin-top: 4300px;
+    margin-top: 4730px;
+    border-bottom: 1px solid gainsboro;
+    padding-bottom: 20px;
    }
    .button4{
-    margin-top: 4600px;
+    margin-top: 4980px;
+    border-bottom: 1px solid gainsboro;
+    padding-bottom: 20px;
    }
    .button5{
-    margin-top: 5000px;
+    margin-top: 5233px;
+    border-bottom: 1px solid gainsboro;
+    padding-bottom: 20px;
    }
    .explore{
-    margin-top: 5400px;
-    font-size: 10px;
+    margin-top: 5420px;
+    font-size: 13px;
     /* padding: 1px 4px; */
     /* flex-wrap: wrap; */
+    border-bottom: 1px solid gainsboro;
+    padding-bottom: 20px;
    }
    .explore button{
-    padding: 0px;
+    padding: 10px 30px;
     margin: 0px;
     display: flex;
+    
    }
    .download{
     position: absolute;
-    top: 5900px;
+    top: 5580px;
     flex-wrap: wrap;
+    text-align: center;
+    /* display: flex; */
+    /* left: 0%; */
+    /* display: block; */
    }
    .download ul {
     flex-wrap: wrap;
-   }
+    align-items: center;
+    /* left: 0%; */
+    }
+    .download ul img{
+        height: 50px;
+        width: 130px;
+        /* margin-right: 100px; */
+    }
+
    .footer{
-    margin-top: 9000px;
+    margin-top:8200px;
     flex-wrap: wrap;
     font-size: 10px;
-   }
+    }
+    .footer ul{
+        padding-top: 30px;
+    }
 
 
 }
@@ -164,6 +197,9 @@ box-shadow: -1px -14px 48px 8px rgba(137,128,128,0.65);
     }
     /* .explore button {
 
+    } */
+    /* .download {
+        margin-top: 16000px;
     } */
 }
 .suggestion {
@@ -338,7 +374,7 @@ font-weight: bolder;
     margin-left: 20px;
     border-radius: 10px;
     border: 1px solid gainsboro;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
 }
 .cuisines{
     position: absolute;
@@ -381,7 +417,7 @@ font-weight: bolder;
     margin-left: 20px;
     border-radius: 10px;
     border: 1px solid gainsboro;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
 }
 
 .card:hover{
