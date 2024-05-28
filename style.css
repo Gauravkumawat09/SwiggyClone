@@ -71,10 +71,10 @@ box-shadow: -1px -14px 48px 8px rgba(137,128,128,0.65);
    }
    .chains{
     position: absolute;
-    top: 870px; 
+    top: 900px; 
     }
     .chinese{
-    margin-top: 600px;
+    margin-top: 620px;
     }
     .restro{
     margin-top: 1390px;
@@ -89,16 +89,18 @@ box-shadow: -1px -14px 48px 8px rgba(137,128,128,0.65);
     margin-top: 3200px;
    }
    .places{
-    margin-top: 4010px;
+    margin-top: 4020px;
     border-bottom: 1px solid gainsboro;
     padding-bottom: 20px;
    }
    .button2{
+    padding-top: 10px;
     margin-top: 4280px;
     border-bottom: 1px solid gainsboro;
     padding-bottom: 20px;
    }
    .button3{
+    
     margin-top: 4533px;
     border-bottom: 1px solid gainsboro;
     padding-bottom: 20px;
@@ -134,7 +136,7 @@ box-shadow: -1px -14px 48px 8px rgba(137,128,128,0.65);
    }
    .download{
     position: absolute;
-    top: 5580px;
+    top: 5630px;
     flex-wrap: wrap;
     text-align: center;
     /* display: flex; */
@@ -153,7 +155,7 @@ box-shadow: -1px -14px 48px 8px rgba(137,128,128,0.65);
     }
 
    .footer{
-    margin-top:8200px;
+    margin-top:8300px;
     flex-wrap: wrap;
     font-size: 10px;
     }
@@ -366,6 +368,7 @@ font-weight: bolder;
     top: 2080px;
     left: 15%;
     border-bottom: 1px solid gainsboro;
+    padding-bottom: 20px;
 }
 .button3 button{
     padding: 15px 25px;
@@ -375,6 +378,7 @@ font-weight: bolder;
     border-radius: 10px;
     border: 1px solid gainsboro;
     margin-bottom: 0px;
+    
 }
 .cuisines{
     position: absolute;
@@ -395,6 +399,7 @@ font-weight: bolder;
     position: absolute;
     top: 2330px;
     left: 15%;
+    /* padding-bottom: 20px; */
 }
 .button4 button{
     padding: 15px 25px;
@@ -409,6 +414,7 @@ font-weight: bolder;
     top: 2400px;
     left: 15%;
     border-bottom: 1px solid gainsboro;
+    padding-bottom: 20px;
 }
 .button5 button{
     padding: 15px 25px;
@@ -417,7 +423,6 @@ font-weight: bolder;
     margin-left: 20px;
     border-radius: 10px;
     border: 1px solid gainsboro;
-    margin-bottom: 0px;
 }
 
 .card:hover{
@@ -434,6 +439,7 @@ font-weight: bolder;
     margin-top: 20px;
     border-radius: 10px;
     border: 1px solid gainsboro;
+    padding: 10px 100px;
 }
 .download{
     margin-top: 2600px;
