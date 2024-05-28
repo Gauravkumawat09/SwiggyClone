@@ -1,0 +1,446 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    border: solid 1px red;
+}
+
+.header{
+display: flex;
+padding: 10px;
+justify-content: space-between;
+align-items: center;
+box-shadow: -1px -14px 48px 8px rgba(137,128,128,0.65);
+  -webkit-box-shadow: -1px -14px 48px 8px rgba(137,128,128,0.65);
+  -moz-box-shadow: -1px -14px 48px 8px rgba(137,128,128,0.65);
+  top: 0%;
+  position: sticky;
+  z-index: 9999;
+  background-color: white;
+}
+.logo{
+    align-items: center;
+    justify-content: center;
+    padding: 5px 20px;
+}
+.tab ul{
+    display: flex;
+}
+.tab ul li{
+    padding: 0px 40px;
+    list-style: none;
+    font-size: 16px;
+    font-weight: 550;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tab li a{
+    text-decoration: none;
+    color: black;
+} 
+.tab li a:hover{
+    color: orange;
+
+}
+.tab i {
+    display: none;
+}
+
+@media (max-width: 425px) {
+   .tab li {
+    display: none;
+
+   }
+   .tab i {
+    display: block;
+   }
+   .arrow{
+    display: none;
+   }
+   .suggestion h4{
+    font-size: 18px;
+   }
+   .card img{
+    height: 150px;
+    width: 100px;
+   }
+   .chains .arrow {
+    display: none;
+   }
+   .chains{
+    position: absolute;
+    top: 900px;
+   }
+   .chinese .card {
+    margin-top: 1100px;
+   }
+   .restro{
+    margin-top: 1400px;
+   }
+   .four{
+    margin-top: 1700px;
+   }
+   .four2{
+    margin-top: 2000px;
+   }
+   .four3{
+    margin-top: 2300px;
+   }
+   .places{
+    margin-top: 3300px;
+   }
+   .button2{
+    margin-top: 3600px;
+   }
+   .button3{
+    margin-top: 3900px;
+   }
+   .cuisines{
+    margin-top: 4300px;
+   }
+   .button4{
+    margin-top: 4600px;
+   }
+   .button5{
+    margin-top: 5000px;
+   }
+   .explore{
+    margin-top: 5400px;
+    font-size: 10px;
+    /* padding: 1px 4px; */
+    /* flex-wrap: wrap; */
+   }
+   .explore button{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+   }
+   .download{
+    position: absolute;
+    top: 5900px;
+    flex-wrap: wrap;
+   }
+   .download ul {
+    flex-wrap: wrap;
+   }
+   .footer{
+    margin-top: 9000px;
+    flex-wrap: wrap;
+    font-size: 10px;
+   }
+
+
+}
+@media (min-width: 426px) and (max-width: 767px){
+    .tab i {
+    display: none;
+    }
+    .burger{
+        display: flex;
+        /* justify-content: space-between; */
+    }
+    .chinese .card {
+        position: absolute;
+        top: 100px;
+    }
+
+    
+}
+
+@media (min-width: 768px) and (max-width: 3000px){
+    .burger{
+        display: flex;
+    }
+    .chinese{
+        display: flex;
+    }
+    .four{
+        display: flex;
+    }
+    .four2{
+        display: flex;
+    }
+    .four3{
+        display: flex;
+    }
+    /* .explore button {
+
+    } */
+}
+.suggestion {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    left: 15%;
+    padding-top: 10px;
+}
+
+.arrow i:hover{
+background-color: rgb(223, 209, 209);
+}
+.burger{
+    border-bottom: 1px solid gainsboro;
+    width: 70%;
+    position: absolute;
+    left: 15%;
+    /* display: flex; */
+    padding-bottom: 40px;
+}
+.burger .card img{
+    height: 190px;
+    width: 150px;
+    border: none;
+} 
+.chains {
+    margin-top: 280px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    left: 15%;
+}
+.chinese{
+    position: absolute;
+    top: 85%;
+    left: 15%;
+    /* display: flex; */
+    border-bottom: 1px solid gainsboro;
+    padding-bottom: 20px;
+}
+.chinese .card img{
+    height: 70%;
+    width: 90%;
+    border: none;
+    border-radius: 20px;
+    /* transition: all 1s ; */
+    margin: 10px;
+}
+
+.chinese .card {
+    border: none;    
+}
+.card-body h5{
+font-weight: bolder;
+}
+.restro{
+    position: absolute;
+    top: 880px;
+    left: 15%;
+}
+.restro button{
+    border-radius: 50px;
+    padding: 5px 12px;
+    margin-left: 10px;
+    border: 1px solid gainsboro;
+    background-color: white;
+    margin-top: 10px;
+}
+.four{
+    position: absolute;
+    top: 1000px;
+    left: 15%;
+    /* display: flex; */
+    /* border-bottom: 1px solid gainsboro; */
+    /* padding-bottom: 20px; */
+}
+.four .card img{
+    height: 90%;
+    width: 70%;
+    border: none;
+    border-radius: 20px;
+}
+.four .card {
+    border: none;    
+}
+.card-body h5{
+font-weight: bolder;
+}
+.four2{
+    position: absolute;
+    top: 1300px;
+    left: 15%;
+    /* display: flex; */
+    /* border-bottom: 1px solid gainsboro; */
+    /* padding-bottom: 20px; */
+}
+.four2 .card img{
+    height: 70%;
+    width: 70%;
+    border: none;
+    border-radius: 20px;
+}
+.four2 .card {
+    border: none;    
+}
+.card-body h5{
+font-weight: bolder;
+}
+.four3{
+    position: absolute;
+    top: 1600px;
+    left: 15%;
+    /* display: flex; */
+    border-bottom: 1px solid gainsboro;
+    padding-bottom: 20px;
+}
+.four3 .card img{
+    height: 70%;
+    width: 70%;
+    border: none;
+    border-radius: 20px;
+}
+.four3 .card {
+    border: none;    
+}
+.card-body h5{
+font-weight: bolder;
+}
+.places{
+    position: absolute;
+    top: 1900px;
+    left: 15%;
+}
+.places button {
+    padding: 15px 25px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    border: 1px solid gainsboro;
+}
+.button2{
+    position: absolute;
+    top: 2010px;
+    left: 15%;
+}
+.button2 button{
+    padding: 15px 25px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    border: 1px solid gainsboro;
+}
+.button3{
+    position: absolute;
+    top: 2080px;
+    left: 15%;
+    border-bottom: 1px solid gainsboro;
+}
+.button3 button{
+    padding: 15px 25px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    border: 1px solid gainsboro;
+    margin-bottom: 50px;
+}
+.cuisines{
+    position: absolute;
+    top: 2220px;
+    left: 15%;
+}
+.cuisines button{
+    padding: 15px 25px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    border: 1px solid gainsboro;
+}
+
+
+.button4{
+    position: absolute;
+    top: 2330px;
+    left: 15%;
+}
+.button4 button{
+    padding: 15px 25px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    border: 1px solid gainsboro;
+}
+.button5{
+    position: absolute;
+    top: 2400px;
+    left: 15%;
+    border-bottom: 1px solid gainsboro;
+}
+.button5 button{
+    padding: 15px 25px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    border: 1px solid gainsboro;
+    margin-bottom: 50px;
+}
+
+.card:hover{
+
+    transform: scale(0.9);
+}
+.explore{
+    position: absolute;
+    top: 2550px;
+    left: 15%;
+}
+.explore button{
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid gainsboro;
+}
+.download{
+    margin-top: 2600px;
+    padding: 20px;
+    background-color: #f2eded;
+    /* border: 2px solid black; */
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: center;
+    align-items: center;
+}
+.download img{
+    height: 70px;
+    width: 200px;
+    /* margin-left: 40px; */
+}
+.download ul{
+    display: flex;
+    margin-left: 80px;
+    
+}
+.download ul li{
+    list-style: none;
+}
+.footer{
+    border: 2px solid black;
+    display: flex;
+    background-color: black;
+    /* align-items: center; */
+    color: white;
+    justify-content: center;
+    padding: 50px 0px;
+    /* justify-content: space-between; */
+    /* text-align: center; */
+}
+.footer li{
+    color: rgba(255, 255, 255, 0.6);
+    list-style: none;
+    margin: 10px 0px;
+    /* text-align: center; */
+    
+}
+.footer ul{
+    margin: 0px 30px;
+    /* text-align: center; */
+}
