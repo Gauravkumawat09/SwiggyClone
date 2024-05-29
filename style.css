@@ -486,3 +486,7 @@ font-weight: bolder;
     margin: 0px 30px;
     /* text-align: center; */
 }
+.card-text h6{
+font-size: 10px;
+font-weight: bolder;
+}
