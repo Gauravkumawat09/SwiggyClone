@@ -74,54 +74,54 @@ box-shadow: -1px -14px 48px 8px rgba(137,128,128,0.65);
     top: 900px; 
     }
     .chinese{
-    margin-top: 680px;
+    margin-top: 700px;
     }
     .restro{
-    margin-top: 1430px;
+    margin-top: 1530px;
    }
    .four{
-    margin-top: 1600px;
+    margin-top: 1700px;
    }
    .four2{
-    margin-top: 2400px;
+    margin-top: 2500px;
    }
    .four3{
-    margin-top: 3200px;
+    margin-top: 3300px;
    }
    .places{
-    margin-top: 4020px;
+    margin-top: 4120px;
     border-bottom: 1px solid gainsboro;
     padding-bottom: 20px;
    }
    .button2{
     padding-top: 10px;
-    margin-top: 4280px;
+    margin-top: 4380px;
     border-bottom: 1px solid gainsboro;
     padding-bottom: 20px;
    }
    .button3{
     
-    margin-top: 4533px;
+    margin-top: 4633px;
     border-bottom: 1px solid gainsboro;
     padding-bottom: 20px;
    }
    .cuisines{
-    margin-top: 4730px;
+    margin-top: 4830px;
     border-bottom: 1px solid gainsboro;
     padding-bottom: 20px;
    }
    .button4{
-    margin-top: 4980px;
+    margin-top: 5080px;
     border-bottom: 1px solid gainsboro;
     padding-bottom: 20px;
    }
    .button5{
-    margin-top: 5233px;
+    margin-top: 5333px;
     border-bottom: 1px solid gainsboro;
     padding-bottom: 20px;
    }
    .explore{
-    margin-top: 5420px;
+    margin-top: 5520px;
     font-size: 13px;
     /* padding: 1px 4px; */
     /* flex-wrap: wrap; */
@@ -136,7 +136,7 @@ box-shadow: -1px -14px 48px 8px rgba(137,128,128,0.65);
    }
    .download{
     position: absolute;
-    top: 5630px;
+    top: 5740px;
     flex-wrap: wrap;
     text-align: center;
     /* display: flex; */
